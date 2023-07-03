@@ -6,10 +6,10 @@ Breadcrumb widget based on flutter navigation, with different styles.
 ## Features
 
 
-Due to the fact that the board has a special importance in Flutter programs, especially in the desktop, which does not have a back button, 
-Flutterap_breadcrumb is designed based on Navigition system of flutter and uses from AppNavigatorObservers in MaterialApp.
+Due to the fact that the breadcrumb has a special importance in Flutter programs, especially in the desktop, which does not have a back button, 
+Flutterap_breadcrumb is designed based on Navigation system of flutter and uses from AppNavigatorObservers in MaterialApp.
 Flutterap_breadcrumb support rtl and ltr locales.
-Flutterap_breadcrumb is provided in different styles that the shaped case images in defferent platforms are shown below.
+Flutterap_breadcrumb is provided in different styles that the shaped case images in different platforms are shown below.
 
 ![](assets/gifs/breadcrumb.gif)
 
