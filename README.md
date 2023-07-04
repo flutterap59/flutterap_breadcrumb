@@ -19,7 +19,7 @@ Flutterap_breadcrumb is provided in different styles that the shaped case images
 ![](assets/gifs/breadcrumb.gif)
 
 ## Flutterap_breadcrumb in mobile
-<img height="580" src="https://github.com/flutterap59/flutterap_breadcrumb/raw/master/assets/images/breadcrumb_mobile.jpg" width="300"/>
+<img height="580" src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_mobile.jpg" width="300"/>
 
 ## Flutterap_breadcrumb in web
 ![](assets/images/breadcrumb_web.png)

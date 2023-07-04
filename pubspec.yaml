@@ -1,6 +1,6 @@
 name: flutterap_breadcrumb
 description: Breadcrumb widget based on flutter navigation, with different styles.
-version: 1.0.3
+version: 1.0.5
 homepage: https://github.com/flutterap59/flutterap_breadcrumb
 
 environment:
