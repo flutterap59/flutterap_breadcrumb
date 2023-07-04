@@ -8,12 +8,13 @@ Breadcrumb widget based on flutter navigation, with different styles.
 
 Due to the fact that the breadcrumb has a special importance in Flutter programs, especially in the desktop, which does not have a back button, 
 Flutterap_breadcrumb is designed based on Navigation system of flutter and uses from AppNavigatorObservers in MaterialApp.
-Flutterap_breadcrumb support rtl and ltr locales.
+Flutterap_breadcrumb support rtl and ltr locales, and you can manage presence on each page by click on breadcrumb component.
 Flutterap_breadcrumb is provided in different styles that the shaped case images in different platforms are shown below.
+
 
 ![](assets/gifs/breadcrumb.gif)
 
-![](assets/images/breadcrumb_mobile.jpg)
+<img height="580" src="assets/images/breadcrumb_mobile.jpg" width="300"/>
 
 ![](assets/images/breadcrumb_web.png)
 
