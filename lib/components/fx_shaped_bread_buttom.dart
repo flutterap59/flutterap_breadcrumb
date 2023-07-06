@@ -25,13 +25,15 @@ class FxShapedBreadButton extends StatelessWidget {
     double depth0 = depth ?? 10;
     double padding0 = padding ?? 8;
 
+    //manage rtl and rtl locales by intl package
+
     bool isDirectionRTL(BuildContext context) {
       return intl.Bidi.isRtlLanguage(
           Localizations.localeOf(context).languageCode);
     }
 
     bool rtl = isDirectionRTL(context);
-
+    //build a shaped breadcrumb button by ClipPath
     return ClipPath(
       clipper: _TriangleClipper(!isFirstButton, rtl: rtl, depth: depth0),
       child: Container(
@@ -68,7 +70,7 @@ class _TriangleClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     final Path path = Path();
-
+    //Prepare path of breadcrumb
     if (rtl) {
       if (twoSideClip) {
         path.moveTo(size.width - depth, 0.0);

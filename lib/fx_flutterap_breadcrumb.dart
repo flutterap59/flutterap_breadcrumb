@@ -6,6 +6,7 @@ import 'components/fx_icon_bread_buttom.dart';
 import 'components/fx_shaped_bread_buttom.dart';
 import 'components/fx_simple_bread_buttom.dart';
 
+//Breadcrumb widget based on flutter navigation, with different styles.
 class FxBreadCrumbNavigator extends StatefulWidget {
   final String? firstRoute;
 
@@ -80,13 +81,18 @@ class FxBreadCrumbNavigator extends StatefulWidget {
 }
 
 class _FxBreadCrumbNavigatorState extends State<FxBreadCrumbNavigator> {
+
+  //define empty list of indexes of routs
   List _index = [];
+
+  //define empty list of routes as _routStack
   List<Route> _routStack = [];
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
+
 
     _routStack = widget.currentRouteStack;
 
@@ -104,6 +110,8 @@ class _FxBreadCrumbNavigatorState extends State<FxBreadCrumbNavigator> {
             return MapEntry(
                 index,
                 _index.contains(index)
+
+                //make breadcrumb structure
                     ? GestureDetector(
                         onTap: () {
                           Navigator.popUntil(

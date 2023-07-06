@@ -19,12 +19,16 @@ class FxIconBreadButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    //manage rtl and rtl locales by intl package
     bool isDirectionRTL(BuildContext context) {
       return intl.Bidi.isRtlLanguage(
           Localizations.localeOf(context).languageCode);
     }
 
     bool rtl = isDirectionRTL(context);
+
+    //build a icon breadcrumb button
     return Row(
       children: [
         Text(
