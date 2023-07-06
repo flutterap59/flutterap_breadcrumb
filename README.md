@@ -15,17 +15,19 @@ Flutterap_breadcrumb is designed based on Navigation system of flutter and uses 
 Flutterap_breadcrumb support rtl and ltr locales, and you can manage presence on each page by click on breadcrumb component.
 Flutterap_breadcrumb is provided in different styles that the shaped case images in different platforms are shown below.
 
+<img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/gifs/breadcrumb.gif" />
 
-![](assets/gifs/breadcrumb.gif)
 
 ## Flutterap_breadcrumb in mobile
 <img height="580" src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_mobile.jpg" width="300"/>
 
 ## Flutterap_breadcrumb in web
-![](assets/images/breadcrumb_web.png)
+<img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_web.png" />
+
 
 ## Flutterap_breadcrumb in desktop
-![](assets/images/breadcrumb_desktop.png)
+<img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_desktop.png" />
+
 
 ## Getting started
 
