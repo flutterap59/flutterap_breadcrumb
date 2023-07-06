@@ -2,6 +2,7 @@
 <img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/flutterap_logo.png" />
 
 ## Flutterap_breadcrumb
+
 This package is extended from flutterap admin panel
 Flutterap is a most developer-friendly, highly customizable admin dashboard template based on Flutter.
 It comes with lots of features that make development easier for you.
@@ -18,19 +19,18 @@ Flutterap_breadcrumb is provided in different styles that the shaped case images
 <img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/gifs/breadcrumb.gif" />
 
 
-## Flutterap_breadcrumb in mobile
+### Flutterap_breadcrumb in mobile
 <img height="580" src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_mobile.jpg" width="300"/>
 
-## Flutterap_breadcrumb in web
+### Flutterap_breadcrumb in web
 <img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_web.png" />
 
 
-## Flutterap_breadcrumb in desktop
+### Flutterap_breadcrumb in desktop
 <img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/breadcrumb_desktop.png" />
 
 
 ## Getting started
-
 
 First navigatorObservers: [AppNavigatorObserver()], should be added in  main MaterialApp:
 
@@ -39,7 +39,6 @@ debugShowCheckedModeBanner: false,
 navigatorObservers: [AppNavigatorObserver()],...
 
 ## Usage
-
 
 ```dart
 class InitialPage extends StatelessWidget {
