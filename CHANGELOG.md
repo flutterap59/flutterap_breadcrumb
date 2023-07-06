@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.6
 
 Breadcrumb widget based on flutter navigation, with different styles.
