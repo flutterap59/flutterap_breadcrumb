@@ -16,6 +16,7 @@ class FlutterapBreadcrumbApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         navigatorObservers: [AppNavigatorObserver()],
+        //Define initial route and the other two routes to test flutterap_breadcrumb
         routes: {
           '/': (context) => const InitialPage(),
           '/second-page': (context) => const SecondPage(),
@@ -26,6 +27,8 @@ class FlutterapBreadcrumbApp extends StatelessWidget {
   }
 }
 
+
+//Define InitialPage which has flutterap_breadcrumb to manage presence in each page and a button to navigate to SecondPage
 class InitialPage extends StatelessWidget {
   const InitialPage({Key? key}) : super(key: key);
 
@@ -60,6 +63,7 @@ class InitialPage extends StatelessWidget {
   }
 }
 
+//Define SecondPage which has flutterap_breadcrumb to manage presence in each page and a button to navigate to ThirdPage
 class SecondPage extends StatelessWidget {
   static const routeName = '/second-page';
 
@@ -94,6 +98,7 @@ class SecondPage extends StatelessWidget {
   }
 }
 
+//Define ThirdPage which has flutterap_breadcrumb to manage presence in each page.
 class ThirdPage extends StatelessWidget {
   static const routeName = '/third-page';
 
