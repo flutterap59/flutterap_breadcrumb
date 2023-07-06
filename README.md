@@ -1,5 +1,5 @@
 
-![](assets/images/flutterap_logo.png)
+<img src="https://github.com/flutterap59/flutterap_breadcrumb/raw/main/assets/images/flutterap_logo.png" />
 
 ## Flutterap_breadcrumb
 This package is extended from flutterap admin panel
