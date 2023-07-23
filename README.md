@@ -9,6 +9,9 @@ It comes with lots of features that make development easier for you.
 <a href="https://flutterap.com" rel="nofollow">Website : flutterap.com</a>
 ##
 
+<a href="https://www.flutterap.com/features" rel="nofollow"><img src="https://github.com/flutterap59/flutterap_event_calendar/raw/main/assets/images/contact_us.png" /></a>
+##
+
 ## Features
 
 Breadcrumb widget based on flutter navigation, with different styles.
