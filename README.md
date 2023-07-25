@@ -8,7 +8,9 @@ Flutterap is a most developer-friendly, highly customizable admin dashboard temp
 It comes with lots of features that make development easier for you.
 <a href="https://flutterap.com" rel="nofollow">Website : flutterap.com</a>
 ##
+<a href="https://www.buymeacoffee.com/flutterap" rel="nofollow"><img width="200" src="https://github.com/flutterap59/flutterap_event_calendar/raw/main/assets/images/buyme.png" /></a>
 
+##
 <a href="https://www.flutterap.com/features" rel="nofollow"><img src="https://github.com/flutterap59/flutterap_event_calendar/raw/main/assets/images/contact_us.png" /></a>
 ##
 
